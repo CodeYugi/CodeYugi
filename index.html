@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeYugi</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+    <video autoplay muted loop id="background-video">
+        <source src="background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <header class="header">
+        
+        
+        <center><div class="logo"><pre><h1>CodeYugi</h1</pre></div></center>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <nav class="menu" title="others"> </nav>
+        
+        <nav class="menu">
+         <a class="menu-yugi" href="index.html">Chat</a>
+         <a class="menu-yugi" href="labout.html">About Us</a>
+            
+            
+        </nav>
+    </header>
+
+    <main>
+        <div class="login-container">
+           
+           
+           
+           <div class="yugi"><h1>Welcome to CodeYugi</h1></div> 
+           <form class="login-form" id="loginForm">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form> 
+            
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

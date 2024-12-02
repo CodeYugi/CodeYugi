@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Video Background */
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Makes sure the video covers the entire screen */
+    z-index: -1; /* Ensures the video stays behind other elements */
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(31, 31, 31, 0.7); /* Semi-transparent black */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00d1b2;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #00d1b2;
+}
+
+/* Login Page */
+main {
+    flex: 1;
+    display: flex;
+    
+    
+}
+
+.login-container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(31, 31, 31, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.login-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+.login-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #00d1b2;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.login-form button:hover {
+    background: #00a58d;
+}
