@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
     
 }
 
-/* Header*/
+
 header {
     position: fixed;
     width: 100%;
@@ -58,9 +58,7 @@ nav {
     color: #2563eb;
    
 }
-.nav-links:hover {
 
-    transform: translateY(-10px);
 }
 
 /* Hero  */
