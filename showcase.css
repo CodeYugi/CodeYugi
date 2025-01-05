@@ -106,7 +106,7 @@ nav {
 
 .primary {
     background-color: #2563eb;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .primary:hover {
