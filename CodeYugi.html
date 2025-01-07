@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeEditor</title>
+  <link rel="stylesheet" href="code.css">
+  
+</head>
+<body>
+  <div class="code-container">
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" onclick="showTab('html')">HTML</button>
+      <button class="tab" onclick="showTab('css')">CSS</button>
+      <button class="tab" onclick="showTab('javascript')">JavaScript</button>
+    </div>
+    <!-- Code Blocks -->
+    <div class="code-block" id="html">
+      <pre><code class="language-html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+</head>
+<body>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+        &lt;title&gt;ShowCase&lt;/title&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;showcase.css&quot;&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    
+        &lt;header&gt;
+            &lt;nav&gt;
+                &lt;img class=&quot;imglogo&quot; src=&quot;188861498.png&quot; alt=&quot;img&quot; width=&quot;38.4&quot; height=&quot;38&quot;&gt;&lt;div class=&quot;logo&quot;&gt;CodeYugi&lt;/div&gt;
+                &lt;ul class=&quot;nav-links&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#projects&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#stats&quot;&gt;Statistics&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Lobby&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+        &lt;/header&gt;
+       
+        &lt;section id=&quot;home&quot; class=&quot;hero&quot;&gt;
+            &lt;div class=&quot;hero-content&quot;&gt;
+                &lt;div&gt; 
+                    &lt;p&gt;
+                        &lt;span style=&quot;color: rgb(255, 170, 0);&quot;&gt;System&lt;/span&gt;.
+                        &lt;span style=&quot;color: red;&quot;&gt;out&lt;/span&gt;.
+                        &lt;span style=&quot;color: blue;&quot;&gt;println&lt;/span&gt;
+                        &lt;span style=&quot;color: rgb(255, 170, 0);&quot;&gt;(&quot;&lt;/span&gt;
+                        &lt;span class=&quot;Hello&quot;&gt;Hello World&lt;/span&gt;
+                        &lt;span style=&quot;color: rgb(255, 170, 0);&quot;&gt;&quot;)&lt;/span&gt;
+                        &lt;span&gt;;&lt;/span&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;br&gt;
+                &lt;h1&gt;Hi, I&#39;m &lt;span class=&quot;highlight&quot;&gt;Yugi&lt;/span&gt;&lt;/h1&gt;
+                &lt;p class=&quot;subtitle&quot;&gt;Web Developer &amp; Designer&lt;/p&gt;
+                &lt;div class=&quot;cta-buttons&quot;&gt;
+                    &lt;a href=&quot;#projects&quot; class=&quot;btn primary&quot;&gt;View Projects&lt;/a&gt;
+                    &lt;a href=&quot;#contact&quot; class=&quot;btn secondary&quot;&gt;Contact Me&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+    
+        &lt;section id=&quot;projects&quot; class=&quot;projects&quot;&gt;
+            &lt;h2&gt;My Projects&lt;/h2&gt;
+            &lt;div class=&quot;project-grid&quot;&gt;
+                &lt;div class=&quot;project-card&quot;&gt;
+                    &lt;img src=&quot;amazon.jpg&quot; alt=&quot;Project 1&quot;&gt;
+                    &lt;h3&gt;Project 1&lt;/h3&gt;
+                    &lt;p&gt;Amazon shopping clone using html, css and js&lt;/p&gt;
+                    &lt;div class=&quot;project-links&quot;&gt;
+                        &lt;a href=&quot;https://github.com/CodeYugi&quot; class=&quot;btn&quot;&gt;GitHub&lt;/a&gt;
+                        &lt;a href=&quot;Amazon.html&quot; class=&quot;btn&quot;&gt;CodeView&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;project-card&quot;&gt;
+                    &lt;img src=&quot;netflix.png&quot; alt=&quot;Project 2&quot;&gt;
+                    &lt;h3&gt;Project 2&lt;/h3&gt;
+                    &lt;p&gt;Netflix clone using Html , css and js &lt;/p&gt;
+                    &lt;div class=&quot;project-links&quot;&gt;
+                        &lt;a href=&quot;https://github.com/CodeYugi&quot; class=&quot;btn&quot;&gt;GitHub&lt;/a&gt;
+                        &lt;a href=&quot;Netflix.html&quot; class=&quot;btn&quot;&gt;CodeView&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;project-card&quot;&gt;
+                    &lt;img src=&quot;coming soon.jpg&quot; alt=&quot;Project 3&quot;&gt;
+                    &lt;h3&gt;Project 3&lt;/h3&gt;
+                    &lt;p&gt;Coming soon&lt;/p&gt;
+                    &lt;div class=&quot;project-links&quot;&gt;
+                        &lt;a href=&quot;https://github.com/CodeYugi&quot; class=&quot;btn&quot;&gt;GitHub&lt;/a&gt;
+                        &lt;a href=&quot;CodeYugi.html&quot; class=&quot;btn&quot;&gt;ViewCode&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+    
+        &lt;section id=&quot;stats&quot; class=&quot;stats&quot;&gt;
+            &lt;h2&gt;Statistics&lt;/h2&gt;
+            &lt;div class=&quot;stats-grid&quot;&gt;
+                &lt;div class=&quot;stat-card&quot;&gt;
+                    &lt;i class=&quot;fas fa-code&quot;&gt;&lt;/i&gt;
+                    &lt;h3&gt;20+&lt;/h3&gt;
+                    &lt;p&gt;Hours Coded&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;stat-card&quot;&gt;
+                    &lt;i class=&quot;fas fa-project-diagram&quot;&gt;&lt;/i&gt;
+                    &lt;h3&gt;3+&lt;/h3&gt;
+                    &lt;p&gt;Projects Completed&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;stat-card&quot;&gt;
+                    &lt;i class=&quot;fas fa-users&quot;&gt;&lt;/i&gt;
+                    &lt;h3&gt;LOL&lt;/h3&gt;
+                    &lt;p&gt;Happy Clients&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;stat-card&quot;&gt;
+                    &lt;i class=&quot;fas fa-award&quot;&gt;&lt;/i&gt;
+                    &lt;h3&gt;100%&lt;/h3&gt;
+                    &lt;p&gt;satisfaction&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+    
+        &lt;section id=&quot;contact&quot; class=&quot;contact&quot;&gt;
+            &lt;h2&gt;Get In Touch&lt;/h2&gt;
+            &lt;div class=&quot;contact-content&quot;&gt;
+                &lt;div class=&quot;contact-info&quot;&gt;
+                    &lt;div class=&quot;contact-item&quot;&gt;
+                        &lt;i class=&quot;fas fa-envelope&quot;&gt;&lt;/i&gt;
+                        &lt;p&gt;yugiicode@gmail.com&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;contact-item&quot;&gt;
+                        &lt;i class=&quot;fas fa-phone&quot;&gt;&lt;/i&gt;
+                        &lt;p&gt;+91XXXXXXXXXX&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;contact-item&quot;&gt;
+                        &lt;i class=&quot;fas fa-location-dot&quot;&gt;&lt;/i&gt;
+                        &lt;p&gt;Github:-CodeYugi&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+    
+        &lt;footer&gt;
+            &lt;div class&quot;lol&quot;&gt;This website is a creation by Yugi, a 17-year-old coding enthusiast with a passion for learning and experimenting with new ideas. This is my First project. I believe that every great idea starts with curiosity, and this website is a stepping stone toward building something extraordinary.
+    
+                Join the journey, explore the projects, and share your thoughts – let’s create something amazing together!&lt;/div&gt;
+            &lt;p&gt;&copy; 2024 Your ShowCase. All rights reserved.&lt;/p&gt;
+        &lt;/footer&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+    
+</body>
+</html>
+      </code></pre>
+    </div>
+    <div class="code-block hidden" id="css">
+      <pre><code class="language-css">
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    
+}
+
+/* Header*/
+header {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content:none;
+    align-items: center;
+    padding: 1rem 5%;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2563eb;
+    padding-right:700px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+   
+}
+
+
+/* Hero  */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+    padding: 0 1rem;
+
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: #2563eb;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+    margin: 0.5rem;
+}
+
+.primary {
+    background-color: #2563eb;
+    color: rgb(255, 255, 255);
+}
+
+.primary:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-10px);
+
+}
+
+.secondary {
+    background-color: #2563eb;
+    color: white;
+}
+
+.secondary:hover {
+    background-color: #2563eb;
+    color: white;
+    transform: translateY(-10px);
+}
+
+/* Projects */
+.projects {
+    padding: 5rem 1rem;
+    background-color: #fff;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+.project-card p {
+    padding: 0 1rem 1rem;
+    color: #666;
+}
+
+.project-links {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Statistics */
+.stats {
+    padding: 5rem 1rem;
+    background-color: #f3f4f6;
+}
+
+.stats h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.stat-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   
+}
+
+.stat-card:hover {
+    transform: translateY(-10px);
+}
+.stat-card i {
+    font-size: 2rem;
+    color: #2563eb;
+    margin-bottom: 1rem;
+}
+
+.stat-card h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #2563eb;
+}
+
+/* Contact */
+.contact {
+    padding: 5rem 1rem;
+    background-color: #fff;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+    color: #2563eb;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-links a {
+    color: #666;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #2563eb;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2937;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.25rem;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
+ 
+
+      </code></pre>
+    </div>
+    <div class="code-block hidden" id="javascript">
+      <pre><code class="language-javascript">
+     NO JS is use 
+      </code></pre>
+    </div>
+  </div>
+  <script src="code.js"></script>
+</body>
+</html>

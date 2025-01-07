@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ddd;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .code-container {
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    overflow: hidden;
+    width: max-content;
+    margin: 0 auto;
+  }
+  
+  .tabs {
+    display: flex;
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #333;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #ddd;
+    background: none;
+    border: none;
+  }
+  
+  .tab.active {
+    background-color: #333;
+    color: #00aaff;
+  }
+  
+  .code-block {
+    padding: 10px;
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  pre {
+    margin: 0;
+    overflow-x: auto;
+    background: none;
+    color: #ddd;
+  }
+  

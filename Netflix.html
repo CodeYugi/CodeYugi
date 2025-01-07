@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeEditor</title>
+  <link rel="stylesheet" href="code.css">
+  
+</head>
+<body>
+  <div class="code-container">
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" onclick="showTab('html')">HTML</button>
+      <button class="tab" onclick="showTab('css')">CSS</button>
+      <button class="tab" onclick="showTab('javascript')">JavaScript</button>
+    </div>
+    <!-- Code Blocks -->
+    <div class="code-block" id="html">
+      <pre><code class="language-html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+</head>
+<body>
+ Coming Soon
+</body>
+</html>
+      </code></pre>
+    </div>
+    <div class="code-block hidden" id="css">
+      <pre><code class="language-css">
+    Coming soon
+      </code></pre>
+    </div>
+    <div class="code-block hidden" id="javascript">
+      <pre><code class="language-javascript">
+     Coming Soon
+      </code></pre>
+    </div>
+  </div>
+  <script src="code.js"></script>
+</body>
+</html>
