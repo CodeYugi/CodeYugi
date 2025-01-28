@@ -316,3 +316,44 @@ footer {
     }
 }
  
+.akinator-image,
+.mylogo {
+    position: absolute;
+    width: 150px; /* Ensures both are the same width */
+    height: 150px; /* Ensures both are the same height */
+    animation: float 3s ease-in-out infinite;
+}
+
+.akinator-image {
+    top: 34%;
+    right: 33%;
+}
+
+.mylogo {
+    top: 34%;
+    right: 56%
+}
+
+.akinator-image img,
+.mylogo img {
+    width: 99%;
+    height: 99%;
+    object-fit: contain; /* Ensures the image maintains its aspect ratio */
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0));
+}
+
+@media (max-width: 768px) {
+    .chat-container {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+}
