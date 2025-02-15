@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **Arhant (Yugi) Tyagi on Linkden** (https://www.linkedin.com/in/arhant-tyagi-53235b33b/)
 
-- ⚡ Fun fact **I love to Code**
+- ⚡ Fact **I am the Best**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
