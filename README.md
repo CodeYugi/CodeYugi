@@ -9,7 +9,7 @@
 
 - 👨‍💻 All of my projects are available at [https://codeyugi.github.io/CodeYugi/](https://codeyugi.github.io/CodeYugi/)
 
-- 📫 How to reach me **Arhant (Yugi) Tyagi on Linkden**
+- 📫 How to reach me **Arhant (Yugi) Tyagi on Linkden** (https://www.linkedin.com/in/arhant-tyagi-53235b33b/)
 
 - ⚡ Fun fact **I love to Code**
 
