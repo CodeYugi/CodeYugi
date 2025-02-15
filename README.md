@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Yugi</h1>
 <h3 align="center">I am 17 years old Coding enthusiast</h3>
 
-- 🔭 I’m currently working on **Netflix clone**
+- 🔭 I’m currently working on **Email verification website**
 
 - 🌱 I’m currently learning **React**
 
