@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Yugi</h1>
 <h3 align="center">I am 17 years old Coding enthusiast</h3>
 
-- 🔭 I’m currently working on **Netflix clone**
+- 🔭 I’m currently working on **Email verification website**
 
 - 🌱 I’m currently learning **React**
 
@@ -9,9 +9,9 @@
 
 - 👨‍💻 All of my projects are available at [https://codeyugi.github.io/CodeYugi/](https://codeyugi.github.io/CodeYugi/)
 
-- 📫 How to reach me **Arhant (Yugi) Tyagi on Linkden**
+- 📫 How to reach me **Arhant (Yugi) Tyagi on Linkden** (https://www.linkedin.com/in/arhant-tyagi-53235b33b/)
 
-- ⚡ Fun fact **I love to Code**
+- ⚡ Fact **I am the Best**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
